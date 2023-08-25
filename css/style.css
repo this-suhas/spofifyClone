@@ -1,0 +1,466 @@
+/* ________________________________________
+    
+    #Fonts
+    
+    _______________________________________*/
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+
+
+/* height: 657px;
+    width: 1366px; */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    /* position: sticky; */
+}
+
+
+/* _________________________________________________________________
+
+    # Header Section
+    
+    _________________________________________________________________*/
+
+
+#main{
+    border: 1px solid black;
+    border-bottom: 2px solid white;
+    height: 90px;
+    /* width: 1349px; */
+    width: 1366px;
+    display: flex;
+    /* position: relative; */
+    background-color: black
+}
+
+#logo-div{
+    border: 1px solid black;
+    height: 88px;
+    width: 700px;
+    background-color: black;
+    border-bottom: 2px solid white;
+
+}
+
+#img{
+    height: 80px;
+    width: 154px;
+    margin-top: 5px;
+    margin-left: 54px;
+}
+
+#option-div{
+    border: 1px solid black;
+    height: 80px;
+    width: 650px;
+    background-color: black;
+    padding-top: 33px;
+    margin-left: 254px;
+
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* position: absolute; */
+}
+
+ 
+.option-head{
+    display: inline;
+    font-size: large;
+    color: white;
+    background-color: black ;
+    margin-left: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    ;
+    
+}
+
+
+/* _________________________________________________________________________________
+
+    # Play millions of songs and podcasts, free
+    
+    ________________________________________________________________________________*/
+
+
+aside{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+
+#aside{
+    background-color: black;
+}
+#mob{
+    border: 1px solid black;
+    border: none
+    background-color : black;
+    height: 631px;
+    width: 550px;
+}
+
+#mob-spk{
+    border: 1px solid rgb(48, 46, 46);
+    height: 10px;
+    width: 60px;
+    margin-left: 276px;
+    margin-top: 130px;
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+
+#mob-img{
+    border: 1px solid  black;
+    height: 531px;
+    width: 270px;
+    margin-top: 100px;
+    margin-left: 170px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    /* border-bottom-left-radius: 35px; */
+    /* border-bottom-right-radius: 35px; */
+    background-color: white;
+    border-bottom: none;
+
+}
+
+#spotify-playlist{
+    height: 470px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 60px;
+}
+
+#home-content{
+    border: 1px solid black;
+    height: 633px;
+    width: 800px;
+    padding-top: 150px;
+    padding-left: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 45px;
+}
+
+#btn-click{
+    border: 1px solid black;
+    height: 50px;
+    width: 170px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: medium;
+    font: bolder;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+}
+
+
+/* ___________________________________________________________________________
+
+    # Why Spotify
+    
+    __________________________________________________________________________*/
+
+
+#why-spotify{
+    /* border: 1px solid white; */
+    height: 120px;
+    width: 1366px;
+    padding-left: 500px;
+    padding-top: 70px;
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 20px;
+    /* font-weight: bolder; */
+    font-weight: 2000;
+}
+/* #h1{
+    color: White; 
+    
+    margin-left: 500px;
+} */
+
+#div-collection{
+    /* border: 1px solid white; */
+    height: 450px;
+    width: 1366px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+ .img-logo{
+    height: 130px;
+    width: 130px;
+    margin-left: 50px;
+ }
+
+ .logo-head{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: x-large;
+    color: black;
+    padding-top: 30px;
+    margin-left: 15px;
+ }
+
+.logo-discp{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: large;
+    color: black;
+    padding-top: 0px;
+    /* margin-top: 0px; */
+    margin-left: 10px;
+
+
+}
+
+#logo-make-it{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: x-large;
+    color: black;
+    padding-top: 30px;
+    margin-left: 40px;
+
+}
+
+/* ___________________________________________________________________________
+
+    # Its free no credit cards
+    
+    __________________________________________________________________________*/
+
+
+#display-text{
+    border: 1px solid black;
+    height: 500px;
+    width: 1366px;
+    margin-top: 100px;
+    padding-top: 180px;
+    background-color: rgb(82, 39, 60);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+#its-free{
+    padding-left: 550px;
+
+}
+
+#no-credit{
+    padding-left: 370px;
+}
+
+/* ___________________________________________________________________________
+
+    # About Portfolio
+    
+    __________________________________________________________________________*/
+
+#spotify-portfolio{
+    border: 1px solid black;
+    background-color: black;
+    height: 480px;
+    width: 1366px;
+    display: flex;
+    color: white;
+    
+    /* justify-content: space-around; */
+
+}
+
+#spotify-port-logo{
+    border: 1px solid black;
+    background-color: black;
+    height: 400px;
+    width: 200px;
+    padding-top: 100px;
+    padding-left: 0px;
+    margin-left: 100px;
+
+}
+
+#spotify-port-logo-img{
+    background-color: black;
+    height: 80px;
+    width: 154px;
+
+}
+
+/* _____________________________________________________
+
+    # Section Company
+    
+    ____________________________________________________*/
+
+#spotify-port-company{
+    border: 1px solid black;
+    background-color: black;
+    height: 400px;
+    width: 120px;
+    margin-left: 50px;
+    padding-top: 100px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.spotify-port-company-head{
+    border: 1px solid black;
+    margin-top: 20px;
+
+
+}
+
+ /* _____________________________________________________
+ 
+    # Section Communities
+    
+    _____________________________________________________*/
+
+
+#spotify-port-communities{
+    border: 1px solid black;
+    background-color: black;
+    height: 400px;
+    width: 120px;
+    margin-left: 50px;
+    padding-top: 100px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.spotify-port-communities-head{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/* _____________________________________________________________
+
+    # Section Useful Links
+    
+    ____________________________________________________________*/
+
+
+#spotify-port-link{
+    border: 1px solid black;
+    background-color: black;
+    height: 400px;
+    width: 120px;
+    margin-left: 50px;
+    padding-top: 100px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.spotify-port-link-head{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+
+.head-link{
+    text-decoration: none;
+    color: white;
+}
+
+/* ________________________________________________
+
+    # Section Social Icons
+    
+    __________________________________________________*/
+
+
+#spotify-port-icon{
+    border: 1px solid black;
+    background-color: black;
+    height: 400px;
+    width: 250px;
+    margin-left: 250px;
+
+
+}
+
+#spotify-port-icon2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 25px;
+
+
+}
+
+
+.social-icon{
+    height: 35px;
+    width: 35px;
+    padding-left: 10px;
+    padding-top: 12px;
+    
+}
+
+.social-icon-background{
+    border: 1px solid rgb(43, 41, 41);
+    height: 47px;
+    width: 47px;
+    background-color: rgb(247, 241, 241);
+    border-radius: 100px;
+}
+
+.social-icon-click{
+     
+
+}
+
+
+/* ____________________________________________________
+
+    # Section Terms and Conditions
+    
+    ____________________________________________________*/
+
+
+#terms-condition{
+    border: 1px solid black;
+    background-color: black;
+    height: 100px;
+    width: 1349px;
+
+}
+
+#terms-condition-div1{
+    border: 1px solid black;
+    background-color: black;
+    height: 25px;
+    width: 420px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teams-condition-div1-head{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    
+}
+
+.terms-condition-div-head-link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+ 
